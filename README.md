@@ -17,4 +17,3 @@ Dibuat sebagai ruang penyemangat untuk menemani Anggi belajar, persiapan ujian, 
 - **Styling**: Tailwind CSS (Custom Soft Lavender, Pastel Plum & Sakura Blossom Palette)
 - **Animasi & Interaksi**: Framer Motion & Canvas Confetti
 - **Deployment**: GitHub Pages (via GitHub Actions)
-
