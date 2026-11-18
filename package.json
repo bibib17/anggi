@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "dev": "vite index.dev.html",
+    "build": "tsc && vite build && node -e \"const fs = require('fs'); fs.copyFileSync('dist/index.dev.html', 'dist/index.html'); fs.copyFileSync('dist/index.dev.html', 'index.html'); fs.cpSync('dist/assets', 'assets', {recursive: true});\"",
     "preview": "vite preview"
   },
   "dependencies": {

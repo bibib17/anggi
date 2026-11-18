@@ -11,8 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="./assets/index-qp5paXUB.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-D0IU8lD4.css">
+    <script type="module" crossorigin src="./assets/main-CfxVyGSg.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/main-BTLJPmvg.css">
   </head>
   <body class="bg-[#F5F0FB] text-[#28163E] antialiased selection:bg-[#E8DCF8] selection:text-[#28163E]">
     <div id="root"></div>
