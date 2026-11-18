@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-choc-dark: #28163E;
+  --color-choc-milk: #5C4478;
+  --color-choc-caramel: #8E76A8;
+  --color-berry-soft: #F5F0FB;
+  --color-berry-blush: #E8DCF8;
+  --color-berry-punch: #9B6FE4;
+  --color-petal-pink: #D870B8;
+  --color-cream-card: #FFFFFF;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F5F0FB;
+  background-image: url('./assets/pattern-romantic.svg');
+  background-repeat: repeat;
+  background-size: 70px 70px;
+  color: #28163E;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  min-height: 100dvh;
+}
+
+.bg-romantic-pattern {
+  background-color: #F5F0FB;
+  background-image: url('./assets/pattern-romantic.svg');
+  background-repeat: repeat;
+  background-size: 70px 70px;
+}
+
+/* Glassmorphism Dreamy Cards from reference design */
+.glass-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(232, 220, 248, 0.85);
+  box-shadow: 0 10px 30px -8px rgba(155, 111, 228, 0.12), 0 4px 12px rgba(216, 112, 184, 0.06);
+}
+
+.gradient-lavender-rose {
+  background: linear-gradient(135deg, #9B6FE4 0%, #D870B8 100%);
+}
+
+.gradient-badge-violet {
+  background: linear-gradient(135deg, #EDE4F9 0%, #F5ECFC 100%);
+  color: #6434AD;
+  border: 1px solid rgba(192, 132, 252, 0.3);
+}
+
+.gradient-badge-petal {
+  background: linear-gradient(135deg, #FCEEF6 0%, #FDF4F9 100%);
+  color: #BE4B9B;
+  border: 1px solid rgba(243, 184, 223, 0.4);
+}
+
+/* Custom spinning animation for the retro vinyl record */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 14s linear infinite;
+}
+
+/* Custom pulse-free floating animation */
+@keyframes float-gentle {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(2deg);
+  }
+}
+
+.animate-float {
+  animation: float-gentle 4s ease-in-out infinite;
+}
+
+/* Floating Flower Petal sway */
+@keyframes petal-sway {
+  0% {
+    transform: translateY(-10px) translateX(0px) rotate(0deg);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.85;
+  }
+  80% {
+    opacity: 0.85;
+  }
+  100% {
+    transform: translateY(105vh) translateX(40px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* Hide scrollbar for mobile clean aesthetics */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

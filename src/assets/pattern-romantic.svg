@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <radialGradient id="flowerGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E599D9" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#9C6FE4" stop-opacity="0.08"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Cute 5-petal flower (Cluster A) -->
+  <g transform="translate(20, 20) scale(0.7)">
+    <circle cx="0" cy="-7" r="4.5" fill="#9C6FE4" fill-opacity="0.12"/>
+    <circle cx="6.6" cy="-2.2" r="4.5" fill="#B58DF2" fill-opacity="0.12"/>
+    <circle cx="4.1" cy="5.7" r="4.5" fill="#D870B8" fill-opacity="0.12"/>
+    <circle cx="-4.1" cy="5.7" r="4.5" fill="#E599D9" fill-opacity="0.12"/>
+    <circle cx="-6.6" cy="-2.2" r="4.5" fill="#A87FF0" fill-opacity="0.12"/>
+    <!-- Center stamen -->
+    <circle cx="0" cy="0" r="2.5" fill="#FDE047" fill-opacity="0.35"/>
+  </g>
+
+  <!-- Cute 5-petal flower (Cluster B - staggered) -->
+  <g transform="translate(60, 60) scale(0.65) rotate(35)">
+    <circle cx="0" cy="-7" r="4.5" fill="#D870B8" fill-opacity="0.12"/>
+    <circle cx="6.6" cy="-2.2" r="4.5" fill="#E599D9" fill-opacity="0.12"/>
+    <circle cx="4.1" cy="5.7" r="4.5" fill="#9C6FE4" fill-opacity="0.12"/>
+    <circle cx="-4.1" cy="5.7" r="4.5" fill="#B58DF2" fill-opacity="0.12"/>
+    <circle cx="-6.6" cy="-2.2" r="4.5" fill="#C084FC" fill-opacity="0.12"/>
+    <!-- Center stamen -->
+    <circle cx="0" cy="0" r="2.5" fill="#FDE047" fill-opacity="0.35"/>
+  </g>
+
+  <!-- Floating Falling Petal 1 -->
+  <path d="M58 18 C58 14, 64 12, 65 17 C66 22, 60 23, 58 18 Z" fill="#D870B8" fill-opacity="0.1" transform="rotate(-15 61 17)"/>
+
+  <!-- Floating Falling Petal 2 -->
+  <path d="M18 58 C18 54, 24 52, 25 57 C26 62, 20 63, 18 58 Z" fill="#9C6FE4" fill-opacity="0.1" transform="rotate(25 21 57)"/>
+
+  <!-- Dainty romantic heart with pastel floral curve -->
+  <path d="M40 38 C39.4 36.8 37.6 36 36.2 37 C34.4 38.4 34.8 40.5 36.5 42.2 L40 45.4 L43.5 42.2 C45.2 40.5 45.6 38.4 43.8 37 C42.4 36 40.6 36.8 40 38 Z" fill="#B58DF2" fill-opacity="0.09" />
+
+  <!-- Dainty 4-point floral sparkle -->
+  <path d="M40 10 Q40 13 37 13 Q40 13 40 16 Q40 13 43 13 Q40 13 40 10 Z" fill="#C084FC" fill-opacity="0.14" />
+  <path d="M72 40 Q72 43 69 43 Q72 43 72 46 Q72 43 75 43 Q72 43 72 40 Z" fill="#E599D9" fill-opacity="0.14" />
+  <path d="M8 40 Q8 43 5 43 Q8 43 8 46 Q8 43 11 43 Q8 43 8 40 Z" fill="#9C6FE4" fill-opacity="0.14" />
+
+  <!-- Micro botanical dots -->
+  <circle cx="40" cy="72" r="1.2" fill="#9C6FE4" fill-opacity="0.1" />
+  <circle cx="72" cy="72" r="1.2" fill="#D870B8" fill-opacity="0.1" />
+  <circle cx="8" cy="8" r="1.2" fill="#B58DF2" fill-opacity="0.1" />
+</svg>
