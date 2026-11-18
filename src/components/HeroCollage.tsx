@@ -116,7 +116,7 @@ export const HeroCollage: React.FC<HeroCollageProps> = ({
           </div>
 
           {/* Interactive Filmstrip Controller Widget */}
-          <div className="self-start sm:self-auto pt-1">
+          <div className="w-full sm:w-auto flex justify-center sm:justify-end pt-1">
             <FilmstripWidget
               activeMedia={activeMedia}
               onSelectMedia={(item) => setActiveMedia(item)}

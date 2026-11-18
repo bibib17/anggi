@@ -305,11 +305,11 @@ export const AbibVoucherSection: React.FC<AbibVoucherSectionProps> = ({
             <div className="absolute top-1/2 -right-3 -translate-y-1/2 w-6 h-6 rounded-full bg-[#F5F0FB] border-l border-[#E8DCF8]" />
 
             <div className="space-y-3.5">
-              <div className="flex items-center justify-between">
-                <span className="text-[12px] font-bold text-[#7F4CD1] bg-[#F5F0FB] px-2.5 py-0.5 rounded-full border border-[#EAE1FA]">
+              <div className="flex items-center justify-between gap-2 flex-wrap">
+                <span className="text-[11px] sm:text-[12px] font-bold text-[#7F4CD1] bg-[#F5F0FB] px-2.5 py-0.5 rounded-full border border-[#EAE1FA]">
                   KODE: CHOC-ANGGI-UNLIMITED
                 </span>
-                <span className="px-3 py-0.5 rounded-full bg-[#FCEEF6] text-[12px] font-bold text-[#BE4B9B] border border-[#F3B8DF]/50">
+                <span className="px-3 py-0.5 rounded-full bg-[#FCEEF6] text-[11px] sm:text-[12px] font-bold text-[#BE4B9B] border border-[#F3B8DF]/50">
                   Anti Expired
                 </span>
               </div>
@@ -367,11 +367,11 @@ export const AbibVoucherSection: React.FC<AbibVoucherSectionProps> = ({
             <div className="absolute top-1/2 -right-3 -translate-y-1/2 w-6 h-6 rounded-full bg-[#F5F0FB] border-l border-[#E8DCF8]" />
 
             <div className="space-y-3.5">
-              <div className="flex items-center justify-between">
-                <span className="text-[12px] font-bold text-[#BE4B9B] bg-[#FCEEF6] px-2.5 py-0.5 rounded-full border border-[#F3B8DF]/50">
+              <div className="flex items-center justify-between gap-2 flex-wrap">
+                <span className="text-[11px] sm:text-[12px] font-bold text-[#BE4B9B] bg-[#FCEEF6] px-2.5 py-0.5 rounded-full border border-[#F3B8DF]/50">
                   KODE: HUG-ANGGI-ALWAYS
                 </span>
-                <span className="px-3 py-0.5 rounded-full bg-[#F5F0FB] text-[12px] font-bold text-[#7F4CD1] border border-[#EAE1FA]">
+                <span className="px-3 py-0.5 rounded-full bg-[#F5F0FB] text-[11px] sm:text-[12px] font-bold text-[#7F4CD1] border border-[#EAE1FA]">
                   Prioritas Utama
                 </span>
               </div>

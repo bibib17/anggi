@@ -182,18 +182,22 @@ export function generateVoucherTicket(data: VoucherData): string {
   ctx.stroke();
   ctx.setLineDash([]); // Reset line dash
 
-  // 9. Details Grid (Recipient, Issuer, Validity)
+  // 9. Details Grid (Recipient, Issuer, Validity) with balanced, non-overlapping spacing
+  const col1X = mx + 48;
+  const col2X = mx + 240;
+  const col3X = mx + 540;
+
   ctx.fillStyle = '#8E76A8';
-  ctx.font = 'bold 12px system-ui, -apple-system, sans-serif';
-  ctx.fillText('PENERIMA RESMI:', mx + 50, my + 215);
-  ctx.fillText('MASA BERLAKU:', mx + 270, my + 215);
-  ctx.fillText('TANGGAL KLAIM:', mx + 480, my + 215);
+  ctx.font = 'bold 11.5px system-ui, -apple-system, sans-serif';
+  ctx.fillText('PENERIMA RESMI:', col1X, my + 215);
+  ctx.fillText('MASA BERLAKU:', col2X, my + 215);
+  ctx.fillText('TANGGAL KLAIM:', col3X, my + 215);
 
   ctx.fillStyle = '#28163E';
-  ctx.font = 'bold 16px system-ui, -apple-system, sans-serif';
-  ctx.fillText('Anggi Anisa Lintang', mx + 50, my + 240);
-  ctx.fillText('Seumur Hidup (Anti Expired)', mx + 270, my + 240);
-  ctx.fillText(data.claimDate, mx + 480, my + 240);
+  ctx.font = 'bold 15px system-ui, -apple-system, sans-serif';
+  ctx.fillText('Anggi Anisa Lintang', col1X, my + 240);
+  ctx.fillText('Seumur Hidup (Anti Expired)', col2X, my + 240);
+  ctx.fillText(data.claimDate, col3X, my + 240);
 
   // 10. Syarat & Ketentuan Romantis
   ctx.fillStyle = '#5C4478';
